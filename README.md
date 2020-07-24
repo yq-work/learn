@@ -1,2 +1,4 @@
 # learn
-the repository builded is the ddemo that help to learn.
+the repository builded is the demo that help to learn.
+
+haha, the demo.
