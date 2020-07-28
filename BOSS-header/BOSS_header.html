@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BOSS直聘导航条</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<style type="text/css">
+
+		.clearfix::before,
+		.clearfix::after{
+			content: '';
+			display: table;
+			clear: both;
+		}
+		
+		.header{
+    		width: 100%;
+    		height: 49px;
+    		line-height: 49px;
+    		background: #202329;
+    		box-shadow: 0 1px 8px rgba(0,0,0,.06);
+    		
+		}
+
+		.inner{
+			width: 1184px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.inner a,
+		.inner span,
+		.inner i{
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.inner a:hover,
+		.inner a.highlight{
+			color: #00D7C6;
+		}
+
+		.logo{
+			float: left;
+			padding: 6px 0 0 0;
+		}
+
+		.logo a{
+    		display: block;
+    		width: 110px;
+    		height: 36px;
+    		background: url(./images/logo-2x.png) 3px 7px no-repeat;
+    		background-size: 105px 19px;
+		}
+
+		.logo span{
+			display: none;
+		}
+
+		.nav{
+			float: left;
+			margin-left: 20px;
+		}
+
+		.nav li{
+			float: left;
+		}	
+
+		.nav li a{
+			padding: 0 7px;
+		}	
+
+		.nav .nav-school-new::after {
+    		content: 'New';
+    		width: 30px;
+    		height: 14px;
+    		box-sizing: border-box;
+    		position: absolute;
+    		top: 8px;
+    		left: 264px;
+    		line-height: 13px;
+    		background-color: #ef505e;
+    		color: #fff;
+    		font-size: 12px;
+    		border-radius: 7px;
+    		display: block;
+    		padding-left: 3px;
+		}
+
+		.user-nav{
+			float: right;
+			margin-right: 24px;
+		}
+
+		.user-nav li{
+			float: left;
+		}	
+
+		.user-nav li a{
+			padding: 0 7px;
+		}	
+
+		.user-nav li.nav-dot {
+    		color: #fff;
+    		margin: 0 0 0 -8px;
+    		font-size: 18px;
+		}
+
+		.nav li a, .user-nav li a{
+			font: 14px arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif;
+			color: #fff;
+			display: block;
+			width: 38px;
+			height: 49px;
+			line-height: 49px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="header">
+
+		<div class="inner clearfix">
+
+			<div class="logo">
+				<a href="https://www.zhipin.com/" title="BOSS直聘">
+					<span>BOSS直聘</span>
+				</a>
+			</div>
+
+			<div class="nav clearfix">
+				<ul>
+					<li>
+						<a href="https://www.zhipin.com/shenzhen/">首页</a>
+					</li>
+					<li>
+						<a class="highlight" href="https://www.zhipin.com/job_detail/">职位</a>
+					</li>
+					<li>
+						<a class="nav-school-new" href="https://www.zhipin.com/xiaoyuan/">校园</a>
+					</li>
+					<li>
+						<a href="https://www.zhipin.com/gongsi/">公司</a>
+					</li>
+					<li>
+					<a href="https://www.zhipin.com/">APP</a>
+					</li>
+					<li>
+						<a href="https://www.zhipin.com">资讯</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="user-nav clearfix">
+				<ul>
+					<li>
+						<a href="javascript:;">消息</a>
+					</li>
+					<li>
+						<a href="javascript:;">简历</a>
+					</li>
+					<li class="nav-dot">·</li>
+					<li>
+						<a href="javascript:;">上传</a>
+					</li>
+					<li>
+						<a href="javascript:;">用户</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>
